@@ -2,7 +2,7 @@
 
 
 
-**Cоздаем ВМ с Ubuntu 20.04/22.04**
+**Cоздаем ВМ с Ubuntu 20.04/22.04**  
 
 в облаке Яндекс с помощью  CLI
 
@@ -184,7 +184,7 @@ placement_policy: {}
 ```
 ___
 
-**Ставим Docker Engine**
+**Ставим Docker Engine**  
 И настраиваем
 ```
 yc-user@otus-vm:~$ curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh && rm get-docker.sh && sudo usermod -aG docker $USER && newgrp docker
